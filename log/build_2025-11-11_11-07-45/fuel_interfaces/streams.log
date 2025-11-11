@@ -1,0 +1,41 @@
+[0.008s] Invoking command in '/home/deepet/VSCode/xyz_2st_project/build/fuel_interfaces': CONDA_PROMPT_MODIFIER=(xyz_2st_project) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/deepet/VSCode/xyz_2st_project/src/fuel_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/deepet/VSCode/xyz_2st_project/install/fuel_interfaces
+[0.080s] -- The C compiler identification is GNU 11.5.0
+[0.155s] -- The CXX compiler identification is GNU 11.5.0
+[0.175s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.322s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.333s] -- Detecting CXX compiler ABI info
+[0.468s] -- Detecting CXX compiler ABI info - done
+[0.484s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.484s] -- Detecting CXX compile features
+[0.484s] -- Detecting CXX compile features - done
+[0.488s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.626s] -- Found Python3: /home/deepet/miniconda3/envs/xyz_2st_project/bin/python3 (found version "3.13.9") found components: Interpreter 
+[0.720s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.757s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.769s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.799s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.825s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.838s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.841s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.860s] Traceback (most recent call last):
+[0.861s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.862s]     from catkin_pkg.package import parse_package_string
+[0.862s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.865s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.865s]   execute_process(/home/deepet/miniconda3/envs/xyz_2st_project/bin/python3
+[0.865s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.865s]   /home/deepet/VSCode/xyz_2st_project/src/fuel_interfaces/package.xml
+[0.865s]   /home/deepet/VSCode/xyz_2st_project/build/fuel_interfaces/ament_cmake_core/package.cmake)
+[0.865s]   returned error code 1
+[0.865s] Call Stack (most recent call first):
+[0.865s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.865s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.865s]   CMakeLists.txt:22 (ament_lint_auto_find_test_dependencies)
+[0.865s] 
+[0.865s] [0m
+[0.865s] -- Configuring incomplete, errors occurred!
+[0.871s] Invoked command in '/home/deepet/VSCode/xyz_2st_project/build/fuel_interfaces' returned '1': CONDA_PROMPT_MODIFIER=(xyz_2st_project) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/deepet/VSCode/xyz_2st_project/src/fuel_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/deepet/VSCode/xyz_2st_project/install/fuel_interfaces
