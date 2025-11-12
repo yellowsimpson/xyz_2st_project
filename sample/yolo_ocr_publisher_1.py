@@ -29,7 +29,7 @@ class YoloOcrNode(Node):
         self.PLATE_CLASS_ID = None    # 번호판 class만 쓰고 싶으면 숫자로 변경
 
         # 카메라
-        self.cap = cv2.VideoCapture(0)
+        self.cap = cv2.VideoCapture('/dev/video4')
 
     # OCR 전처리
     def preprocess_ocr_roi(self, img):
